@@ -1,0 +1,104 @@
+{
+    "data": [{
+            "label": "Univers Ostrum",
+            "data": "Univers Ostrum",
+            "expandedIcon": "pi pi-folder-open",
+            "collapsedIcon": "pi pi-folder",
+            "children": [{
+                    "label": "Sous univers (1)",
+                    "data": "Sous univers (1)",
+                    "expandedIcon": "pi pi-folder-open",
+                    "collapsedIcon": "pi pi-folder",
+                    "children": [{
+                            "label": "Créer un sous univers",
+                            "icon": "pi pi-file",
+                            "data": "Créer un sous univers"
+                        },
+                        {
+                            "label": "Sous-Univers Ostrum 1",
+                            "data": "Sous-Univers Ostrum 1",
+                            "expandedIcon": "pi pi-folder-open",
+                            "collapsedIcon": "pi pi-folder",
+                            "children": [{
+                                    "label": "Sous référents métier admin",
+                                    "data": "Sous référents métier admin",
+                                    "expandedIcon": "pi pi-folder-open",
+                                    "collapsedIcon": "pi pi-folder",
+                                    "children": [{
+                                            "label": "Sous référents métier admin",
+                                            "data": "Sous référents métier admin",
+                                            "expandedIcon": "pi pi-folder-open",
+                                            "collapsedIcon": "pi pi-folder"
+                                        },
+                                        {
+                                            "label": "Groupes de portefeuilles",
+                                            "data": "Groupes de portefeuilles",
+                                            "expandedIcon": "pi pi-folder-open",
+                                            "collapsedIcon": "pi pi-folder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "Groupes de portefeuilles",
+                                    "data": "Groupes de portefeuilles",
+                                    "expandedIcon": "pi pi-folder-open",
+                                    "collapsedIcon": "pi pi-folder",
+                                    "children": [{
+                                            "label": "Créer un groupe de portefeuilles",
+                                            "data": "Créer un groupe de portefeuilles",
+                                            "icon": "pi pi-file"
+                                        },
+                                        {
+                                            "label": "Groupe de portefeuille 1",
+                                            "data": "Groupe de portefeuille 1",
+                                            "expandedIcon": "pi pi-folder-open",
+                                            "collapsedIcon": "pi pi-folder",
+                                            "children": [{
+                                                    "label": "Portefeuilles rattachés",
+                                                    "data": "Portefeuilles rattachés",
+                                                    "expandedIcon": "pi pi-folder-open",
+                                                    "collapsedIcon": "pi pi-folder"
+                                                },
+                                                {
+                                                    "label": "Unités organisationnelles rattachées",
+                                                    "data": "Unités organisationnelles rattachées",
+                                                    "expandedIcon": "pi pi-folder-open",
+                                                    "collapsedIcon": "pi pi-folder"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "Groupe de portefeuille 2",
+                                            "data": "Groupe de portefeuille 2",
+                                            "expandedIcon": "pi pi-folder-open",
+                                            "collapsedIcon": "pi pi-folder"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "Sous univers (2)",
+                    "data": "Sous univers (2)",
+                    "expandedIcon": "pi pi-folder-open",
+                    "collapsedIcon": "pi pi-folder",
+                    "children": [{ "label": "Invoices.txt", "icon": "pi pi-file", "data": "Invoices for this month" }]
+                }
+            ]
+        },
+        {
+            "label": "Univers Ostrum",
+            "data": "Univers Ostrum",
+            "expandedIcon": "pi pi-folder-open",
+            "collapsedIcon": "pi pi-folder"
+        },
+        {
+            "label": "Univers Ostrum",
+            "data": "Univers Ostrum",
+            "expandedIcon": "pi pi-folder-open",
+            "collapsedIcon": "pi pi-folder"
+        }
+    ]
+}
