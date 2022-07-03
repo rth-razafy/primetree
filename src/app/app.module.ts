@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import { NodeService } from './nodeservice';
 
 // import {TreeModule,TreeNode} from 'primeng/tree';
-import {TreeModule} from 'primeng/tree';
+import {TreeModule} from 'primeng/tree'; 
 import {ButtonModule} from 'primeng/button';
 
 @NgModule({

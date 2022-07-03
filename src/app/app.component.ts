@@ -21,7 +21,6 @@ export class AppComponent {
         this.nodeService.getFiles().then(files => this.files1 = files);
         this.nodeService.getFiles().then(files => this.files2 = files);
     }
-    
     expandAll(){
         this.files2.forEach( node => {
             this.expandRecursive(node, true);

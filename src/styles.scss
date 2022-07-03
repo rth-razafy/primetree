@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+button:focus,
+.p-treenode-content {
+    box-shadow: none !important;
+}
+
+span.primary.pi {
+    &:before {
+        color: blue;
+    }
+}
+
+span.secondary.pi {
+    &:before {
+        color: green;
+    }
+}
+
+span.danger.pi {
+    &:before {
+        color: red;
+    }
+}

@@ -2,76 +2,133 @@
     "data": [{
             "label": "Univers Ostrum",
             "data": "Univers Ostrum",
-            "expandedIcon": "pi pi-folder-open",
-            "collapsedIcon": "pi pi-folder",
+            "expandedIcon": "pi pi-folder-open primary",
+            "collapsedIcon": "pi pi-folder primary",
             "children": [{
                     "label": "Sous univers (1)",
                     "data": "Sous univers (1)",
-                    "expandedIcon": "pi pi-folder-open",
-                    "collapsedIcon": "pi pi-folder",
+                    "expandedIcon": "pi pi-folder-open primary",
+                    "collapsedIcon": "pi pi-folder primary",
                     "children": [{
                             "label": "Créer un sous univers",
-                            "icon": "pi pi-file",
+                            "icon": "pi pi-plus-circle secondary",
                             "data": "Créer un sous univers"
                         },
                         {
                             "label": "Sous-Univers Ostrum 1",
                             "data": "Sous-Univers Ostrum 1",
-                            "expandedIcon": "pi pi-folder-open",
-                            "collapsedIcon": "pi pi-folder",
+                            "expandedIcon": "pi pi-folder-open primary",
+                            "collapsedIcon": "pi pi-folder primary",
                             "children": [{
                                     "label": "Sous référents métier admin",
                                     "data": "Sous référents métier admin",
-                                    "expandedIcon": "pi pi-folder-open",
-                                    "collapsedIcon": "pi pi-folder",
+                                    "expandedIcon": "pi pi-folder-open primary",
+                                    "collapsedIcon": "pi pi-folder primary",
                                     "children": [{
                                             "label": "Sous référents métier admin",
                                             "data": "Sous référents métier admin",
-                                            "expandedIcon": "pi pi-folder-open",
-                                            "collapsedIcon": "pi pi-folder"
+                                            "expandedIcon": "pi pi-folder-open primary",
+                                            "collapsedIcon": "pi pi-folder primary"
                                         },
                                         {
                                             "label": "Groupes de portefeuilles",
                                             "data": "Groupes de portefeuilles",
-                                            "expandedIcon": "pi pi-folder-open",
-                                            "collapsedIcon": "pi pi-folder"
+                                            "expandedIcon": "pi pi-folder-open primary",
+                                            "collapsedIcon": "pi pi-folder primary"
                                         }
                                     ]
                                 },
                                 {
                                     "label": "Groupes de portefeuilles",
                                     "data": "Groupes de portefeuilles",
-                                    "expandedIcon": "pi pi-folder-open",
-                                    "collapsedIcon": "pi pi-folder",
+                                    "expandedIcon": "pi pi-folder-open primary",
+                                    "collapsedIcon": "pi pi-folder primary",
                                     "children": [{
                                             "label": "Créer un groupe de portefeuilles",
                                             "data": "Créer un groupe de portefeuilles",
-                                            "icon": "pi pi-file"
+                                            "icon": "pi pi-plus-circle secondary"
                                         },
                                         {
                                             "label": "Groupe de portefeuille 1",
                                             "data": "Groupe de portefeuille 1",
-                                            "expandedIcon": "pi pi-folder-open",
-                                            "collapsedIcon": "pi pi-folder",
+                                            "expandedIcon": "pi pi-folder-open primary",
+                                            "collapsedIcon": "pi pi-folder primary",
                                             "children": [{
                                                     "label": "Portefeuilles rattachés",
                                                     "data": "Portefeuilles rattachés",
-                                                    "expandedIcon": "pi pi-folder-open",
-                                                    "collapsedIcon": "pi pi-folder"
+                                                    "expandedIcon": "pi pi-folder-open primary",
+                                                    "collapsedIcon": "pi pi-folder primary",
+                                                    "children": [{
+                                                            "label": "Typologie inventaire",
+                                                            "data": "Typologie inventaire",
+                                                            "expandedIcon": "pi pi-folder-open primary",
+                                                            "collapsedIcon": "pi pi-folder primary",
+                                                            "children": [{
+                                                                    "label": "Rattacher / détacher un portefeuille",
+                                                                    "data": "Rattacher / détacher un portefeuille",
+                                                                    "icon": "pi pi-cog"
+                                                                },
+                                                                {
+                                                                    "label": "Ptf2",
+                                                                    "data": "Ptf2",
+                                                                    "icon": "pi pi-circle-fill secondary"
+                                                                },
+                                                                {
+                                                                    "label": "Ptf3",
+                                                                    "data": "Ptf3",
+                                                                    "icon": "pi pi-circle-fill danger"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "label": "Typologie frais",
+                                                            "data": "Typologie frais",
+                                                            "expandedIcon": "pi pi-folder-open primary",
+                                                            "collapsedIcon": "pi pi-folder primary"
+                                                        },
+                                                        {
+                                                            "label": "Typologie transactions (lecture)",
+                                                            "data": "Typologie transactions (lecture)",
+                                                            "expandedIcon": "pi pi-folder-open primary",
+                                                            "collapsedIcon": "pi pi-folder primary"
+                                                        },
+                                                        {
+                                                            "label": "Typologie transactions (passage)",
+                                                            "data": "Typologie transactions (passage)",
+                                                            "expandedIcon": "pi pi-folder-open primary",
+                                                            "collapsedIcon": "pi pi-folder primary"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "label": "Unités organisationnelles rattachées",
                                                     "data": "Unités organisationnelles rattachées",
-                                                    "expandedIcon": "pi pi-folder-open",
-                                                    "collapsedIcon": "pi pi-folder"
+                                                    "expandedIcon": "pi pi-folder-open primary",
+                                                    "collapsedIcon": "pi pi-folder primary",
+                                                    "children": [{
+                                                            "label": "Rattacher / détacher une UO",
+                                                            "data": "Rattacher / détacher une UO",
+                                                            "icon": "pi pi-cog"
+                                                        },
+                                                        {
+                                                            "label": "UO 1",
+                                                            "data": "UO 1",
+                                                            "icon": "pi pi-circle-fill secondary"
+                                                        },
+                                                        {
+                                                            "label": "Rattacher / détacher une UO",
+                                                            "data": "Rattacher / détacher une UO",
+                                                            "icon": "pi pi-circle-fill danger"
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         },
                                         {
                                             "label": "Groupe de portefeuille 2",
                                             "data": "Groupe de portefeuille 2",
-                                            "expandedIcon": "pi pi-folder-open",
-                                            "collapsedIcon": "pi pi-folder"
+                                            "expandedIcon": "pi pi-folder-open primary",
+                                            "collapsedIcon": "pi pi-folder primary"
                                         }
                                     ]
                                 }
@@ -82,23 +139,22 @@
                 {
                     "label": "Sous univers (2)",
                     "data": "Sous univers (2)",
-                    "expandedIcon": "pi pi-folder-open",
-                    "collapsedIcon": "pi pi-folder",
-                    "children": [{ "label": "Invoices.txt", "icon": "pi pi-file", "data": "Invoices for this month" }]
+                    "expandedIcon": "pi pi-folder-open primary",
+                    "collapsedIcon": "pi pi-folder primary"
                 }
             ]
         },
         {
             "label": "Univers Ostrum",
             "data": "Univers Ostrum",
-            "expandedIcon": "pi pi-folder-open",
-            "collapsedIcon": "pi pi-folder"
+            "expandedIcon": "pi pi-folder-open primary",
+            "collapsedIcon": "pi pi-folder primary"
         },
         {
             "label": "Univers Ostrum",
             "data": "Univers Ostrum",
-            "expandedIcon": "pi pi-folder-open",
-            "collapsedIcon": "pi pi-folder"
+            "expandedIcon": "pi pi-folder-open primary",
+            "collapsedIcon": "pi pi-folder primary"
         }
     ]
 }
