@@ -14,6 +14,9 @@ import { NodeService } from './nodeservice';
 import {TreeModule} from 'primeng/tree'; 
 import {ButtonModule} from 'primeng/button';
 import {DialogModule} from 'primeng/dialog';
+import {PickListModule} from 'primeng/picklist';
+import {ConfirmDialogModule} from 'primeng/confirmdialog';
+import {ConfirmationService} from 'primeng/api';
 
 @NgModule({
   imports: [
@@ -22,6 +25,8 @@ import {DialogModule} from 'primeng/dialog';
     TreeModule,
     ButtonModule,
     DialogModule,
+    ConfirmDialogModule,
+    PickListModule,
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
@@ -31,7 +36,7 @@ import {DialogModule} from 'primeng/dialog';
   ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [NodeService]
+  providers: [NodeService, ConfirmationService]
 })
 export class AppModule { 
 

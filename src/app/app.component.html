@@ -11,19 +11,36 @@
         </button>
         </span>
     </ng-template>
+    <ng-template let-file pTemplate="groupe">
+        <button pButton type="button" label="{{file.label}}" (click)="addGrpPort()" class="p-button-text no-padding no-color"></button>
+    </ng-template>
 </p-tree>
 
-<p-dialog [(visible)]="display" [style]="{width: '50vw'}" modal="true">
+<p-confirmDialog header="Confirmation" icon="pi pi-exclamation-triangle" [style]="{width: '50vw'}"></p-confirmDialog>
+
+<p-dialog [(visible)]="addGroupe" [style]="{width: '60vw'}" modal="true">
     <ng-template pTemplate="header">
-        Etes-vous sûre ?
+        <div style="display: flex;">
+            <span>Rattachement des portefeuilles -</span> <strong>[SOUS-UNIVERS]/[GRP PORTEFEUILLE]/[TYPOLOGIE]</strong>
+        </div>
     </ng-template>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias itaque veniam, dicta ab at voluptatem nulla excepturi dolorum sapiente sunt quia corporis
-    <ng-template pTemplate="footer">
-        <span class="p-buttonset">
-            <button pButton type="button" label="Confirmer" class="p-button-sm p-button-success">
-        </button>
-            <button pButton type="button" label="Annuler" class="p-button-sm p-button-danger">
-        </button>
-        </span>
-    </ng-template>
+    <p-pickList sourceHeader="Portefeuilles disponible" targetHeader="Portefeuilles rattachés" [source]="list1" [target]="list2" filterBy="label" [showSourceControls]="false" [showTargetControls]="false">
+        <ng-template let-list pTemplate="item">
+            <div class="item-list">
+                <span class="picto">
+                  <span class="pi pi-circle-fill {{list.color}}"></span>
+                </span>
+                <span class="indice">
+                  <span class="isTarget">(</span>{{list.indice}}<span class="isTarget">)</span>
+                </span>
+                <span>{{list.label}}</span>
+            </div>
+        </ng-template>
+    </p-pickList>
+    <div class="btn-picklist-add">
+        <button pButton type="button" label="Annuler changements" class="p-button p-button-default">
+      </button>
+        <button pButton type="button" label="Confirmer" class="p-button p-button-success">
+      </button>
+    </div>
 </p-dialog>

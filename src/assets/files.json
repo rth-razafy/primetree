@@ -47,7 +47,8 @@
                                     "children": [{
                                             "label": "Créer un groupe de portefeuilles",
                                             "data": "Créer un groupe de portefeuilles",
-                                            "icon": "pi pi-plus-circle secondary"
+                                            "icon": "pi pi-plus-circle secondary",
+                                            "type": "groupe"
                                         },
                                         {
                                             "label": "Groupe de portefeuille 1",
