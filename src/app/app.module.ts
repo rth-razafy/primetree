@@ -13,6 +13,7 @@ import { NodeService } from './nodeservice';
 // import {TreeModule,TreeNode} from 'primeng/tree';
 import {TreeModule} from 'primeng/tree'; 
 import {ButtonModule} from 'primeng/button';
+import {DialogModule} from 'primeng/dialog';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import {ButtonModule} from 'primeng/button';
     BrowserAnimationsModule,
     TreeModule,
     ButtonModule,
+    DialogModule,
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([

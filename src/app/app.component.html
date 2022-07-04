@@ -1,1 +1,29 @@
-<p-tree [value]="files1" (onNodeSelect)="nodeSelect($event)"></p-tree>
+<p-tree [value]="files1">
+    <ng-template let-file pTemplate="default">
+        {{file.label}}
+    </ng-template>
+    <ng-template let-file pTemplate="button">
+        {{file.label}}
+        <span class="p-buttonset" style="margin-left: 10px;">
+        <button pButton type="button" title="Modifier" (click)="functModify()" icon="pi pi-pencil" class="p-button-sm p-button-success">
+        </button>
+        <button pButton type="button" title="Supprimer" (click)="functDelete()" icon="pi pi-trash" class="p-button-sm p-button-danger">
+        </button>
+        </span>
+    </ng-template>
+</p-tree>
+
+<p-dialog [(visible)]="display" [style]="{width: '50vw'}" modal="true">
+    <ng-template pTemplate="header">
+        Etes-vous sûre ?
+    </ng-template>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias itaque veniam, dicta ab at voluptatem nulla excepturi dolorum sapiente sunt quia corporis
+    <ng-template pTemplate="footer">
+        <span class="p-buttonset">
+            <button pButton type="button" label="Confirmer" class="p-button-sm p-button-success">
+        </button>
+            <button pButton type="button" label="Annuler" class="p-button-sm p-button-danger">
+        </button>
+        </span>
+    </ng-template>
+</p-dialog>
