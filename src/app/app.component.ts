@@ -27,6 +27,10 @@ export class AppComponent {
         } );
     }
 
+    nodeSelect(event) {
+        console.log("Event " + event);
+    }
+
     collapseAll(){
         this.files2.forEach( node => {
             this.expandRecursive(node, false);

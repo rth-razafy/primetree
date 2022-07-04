@@ -1,24 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 
-button:focus,
-.p-treenode-content {
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+li.p-treenode {
+    border-radius: 0;
+    border-left: 1px dashed #000;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 2px;
+}
+
+button:focus {
     box-shadow: none !important;
 }
 
-span.primary.pi {
-    &:before {
+.p-treenode-content {
+    box-shadow: none !important;
+    position: relative;
+    padding-left: 10px !important;
+    button {
+        position: absolute;
+        width: 100% !important;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+    &>span {
+        cursor: pointer;
+    }
+}
+
+span.fas {
+    font-size: 1.2rem;
+    color: #000 !important;
+    &.primary:before {
         color: blue;
     }
-}
-
-span.secondary.pi {
-    &:before {
+    &.secondary:before {
         color: green;
     }
-}
-
-span.danger.pi {
-    &:before {
+    &.danger:before {
         color: red;
     }
 }
