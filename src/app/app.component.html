@@ -14,6 +14,9 @@
     <ng-template let-file pTemplate="groupe">
         <button pButton type="button" label="{{file.label}}" (click)="addGrpPort()" class="p-button-text no-padding no-color"></button>
     </ng-template>
+    <ng-template let-file pTemplate="uo">
+        <button pButton type="button" label="{{file.label}}" (click)="addUoCustom()" class="p-button-text no-padding no-color"></button>
+    </ng-template>
 </p-tree>
 
 <p-confirmDialog header="Confirmation" icon="pi pi-exclamation-triangle" [style]="{width: '50vw'}"></p-confirmDialog>
@@ -41,6 +44,24 @@
         <button pButton type="button" label="Annuler changements" class="p-button p-button-default">
       </button>
         <button pButton type="button" label="Confirmer" class="p-button p-button-success">
+      </button>
+    </div>
+</p-dialog>
+
+<p-dialog [(visible)]="addUo" [style]="{width: '60vw'}" modal="true">
+    <ng-template pTemplate="header">
+        <div style="display: flex;">
+            <span>Création d'une UO Custom</span>
+        </div>
+    </ng-template>
+    <div id="addUo" class="d-flex">
+        <label for="">Nom de l'UO<sup>*</sup></label>
+        <input type="text" pInputText class="p-inputtext-sm" placeholder="Custom 1x">
+    </div>
+    <div class="btn-picklist-add">
+        <button pButton type="button" label="Annuler" class="p-button p-button-default">
+      </button>
+        <button pButton type="button" label="Créer" class="p-button p-button-success">
       </button>
     </div>
 </p-dialog>

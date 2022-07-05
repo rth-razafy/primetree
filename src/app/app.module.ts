@@ -17,6 +17,7 @@ import {DialogModule} from 'primeng/dialog';
 import {PickListModule} from 'primeng/picklist';
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import {ConfirmationService} from 'primeng/api';
+import {InputTextModule} from 'primeng/inputtext';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import {ConfirmationService} from 'primeng/api';
     BrowserAnimationsModule,
     TreeModule,
     ButtonModule,
+    InputTextModule,
     DialogModule,
     ConfirmDialogModule,
     PickListModule,

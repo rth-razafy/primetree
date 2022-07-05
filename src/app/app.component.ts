@@ -16,6 +16,7 @@ export class AppComponent {
     display: boolean = false;
 
     addGroupe: boolean = false;
+    addUo: boolean = false;
 
     files1: TreeNode[];
 
@@ -62,6 +63,9 @@ export class AppComponent {
     }
     addGrpPort() {
         this.addGroupe = true;
+    }
+    addUoCustom() {
+        this.addUo = true;
     }
     functModify() {
         alert("Modifié");

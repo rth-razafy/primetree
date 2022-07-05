@@ -69,7 +69,8 @@
                                                             "children": [{
                                                                     "label": "Rattacher / détacher un portefeuille",
                                                                     "data": "Rattacher / détacher un portefeuille",
-                                                                    "icon": "pi pi-cog"
+                                                                    "icon": "pi pi-cog",
+                                                                    "type": "uo"
                                                                 },
                                                                 {
                                                                     "label": "Ptf2",
@@ -111,7 +112,8 @@
                                                     "children": [{
                                                             "label": "Rattacher / détacher une UO",
                                                             "data": "Rattacher / détacher une UO",
-                                                            "icon": "pi pi-cog"
+                                                            "icon": "pi pi-cog",
+                                                            "type": "uo"
                                                         },
                                                         {
                                                             "label": "UO 1",

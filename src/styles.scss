@@ -8,6 +8,11 @@
     color: #000 !important;
 }
 
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
 button:focus {
     box-shadow: none !important;
 }
@@ -126,4 +131,12 @@ button.p-button.p-button-default {
 button.p-button.p-button-default:hover {
     background-color: rgba(0, 0, 0, .8);
     border-color: rgba(0, 0, 0, .8);
+}
+
+#addUo label {
+    width: 20%;
+}
+
+#addUo input {
+    width: 80%;
 }
