@@ -18,6 +18,7 @@ import {PickListModule} from 'primeng/picklist';
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import {ConfirmationService} from 'primeng/api';
 import {InputTextModule} from 'primeng/inputtext';
+import {InputTextareaModule} from 'primeng/inputtextarea';
 
 @NgModule({
   imports: [
@@ -26,6 +27,7 @@ import {InputTextModule} from 'primeng/inputtext';
     TreeModule,
     ButtonModule,
     InputTextModule,
+    InputTextareaModule,
     DialogModule,
     ConfirmDialogModule,
     PickListModule,
